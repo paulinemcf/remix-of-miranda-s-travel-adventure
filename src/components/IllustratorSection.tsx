@@ -12,10 +12,10 @@ const IllustratorSection = () => {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <span className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full font-display font-semibold text-sm mb-6">
-              🎨 Meet the Illustrator
+            transition={{ duration: 0.6 }}>
+
+            <span className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full font-display font-semibold text-sm mb-6">🎨 Meet the Chapter Illustrator
+
             </span>
 
             <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
@@ -88,14 +88,14 @@ const IllustratorSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative"
-          >
+            className="relative">
+
             <div className="relative z-10">
               <img
                 src={illustratorImage}
                 alt="Olivia Wynter - Illustrator of Miranda's Travel Adventures"
-                className="w-full max-w-xs mx-auto rounded-2xl shadow-2xl"
-              />
+                className="w-full max-w-xs mx-auto rounded-2xl shadow-2xl" />
+
             </div>
 
             {/* Decorative elements */}
@@ -105,8 +105,8 @@ const IllustratorSection = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default IllustratorSection;
