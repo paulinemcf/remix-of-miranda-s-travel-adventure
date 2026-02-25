@@ -19,8 +19,8 @@ const ContactSection = () => {
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           _subject: "Notify Me Request",
-          message: `The following person has requested to be notified of new publications or events: ${email}`,
-        }),
+          message: `The following person has requested to be notified of new publications or events: ${email}`
+        })
       });
 
       if (response.ok) {
@@ -83,7 +83,7 @@ const ContactSection = () => {
               <div className="w-14 h-14 rounded-full bg-gradient-ocean flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                 <MessageCircle className="w-6 h-6 text-secondary-foreground" />
               </div>
-              <h3 className="font-display font-bold text-foreground mb-2">Book an Event</h3>
+              <h3 className="font-display font-bold text-foreground mb-2">Book an Event with the Author</h3>
               <p className="text-muted-foreground text-sm">School visits, book fairs & readings</p>
             </motion.a>
           </div>
@@ -108,8 +108,8 @@ const ContactSection = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary font-body"
-              />
+                className="flex-1 px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary font-body" />
+
 
               <Button variant="default" size="lg" type="submit" disabled={isSubmitting}>
                 <Send className="w-4 h-4" />
