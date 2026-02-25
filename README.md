@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Miranda's Travel Adventures - Lovable Project
 
 ## Project info
 
