@@ -25,16 +25,16 @@ const Footer = () => {
               href="https://www.facebook.com/profile.php?id=61553619797126&mibextid=LQQJ4d"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
-            >
+              className="hover:text-primary transition-colors">
+
               Facebook
             </a>
             <a
               href="https://www.amazon.com/s?k=Miranda%27s+Travel+Adventures+Janeth+Bell"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-accent transition-colors"
-            >
+              className="hover:text-accent transition-colors">
+
               Amazon
             </a>
           </nav>
@@ -42,15 +42,15 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-sm text-background/70 flex items-center justify-center gap-1">
-            Made with <Heart className="w-4 h-4 text-primary fill-primary" /> by Janeth Bell
+
+            <Heart className="w-4 h-4 text-primary fill-primary" /> by Janeth Bell
           </p>
           <p className="text-xs text-background/50 mt-2">
             © {new Date().getFullYear()} Miranda's Travel Adventures. All rights reserved.
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
 };
 
 export default Footer;
