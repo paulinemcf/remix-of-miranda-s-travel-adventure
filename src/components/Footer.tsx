@@ -42,11 +42,11 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-sm text-background/70 flex items-center justify-center gap-1">
-
-            <Heart className="w-4 h-4 text-primary fill-primary" /> by Janeth Bell
+            <Heart className="w-4 h-4 text-primary fill-primary" />
+            <span>by Janeth Bell</span>
           </p>
           <p className="text-xs text-background/50 mt-2">
-            © {new Date().getFullYear()} Miranda's Travel Adventures. All rights reserved.
+            <span>© {new Date().getFullYear()} Miranda&apos;s Travel Adventures. All rights reserved.</span>
           </p>
         </div>
       </div>
